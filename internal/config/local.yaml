@@ -1,0 +1,11 @@
+env: "local"
+access_ttl: 12h
+refresh_ttl: 48h
+signing_key: "asduyvu2v386bc8qb23ji8"
+postgres:
+  host: "postgres"
+  port: "5432"
+  username: "auth_user"
+  password: "auth_password"
+  dbname: "postgres"
+  sslmode: "disable"
